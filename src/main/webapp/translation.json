@@ -1,0 +1,77 @@
+{
+  "app": {
+    "title": "React"
+  },
+  "navigation": {
+    "toggle": "Toggle navigation",
+    "home": "Home",
+    "entities": "Entities"
+  },
+  "home": {
+    "index": {
+      "headline": "Welcome to your new app!",
+      "text": "Your app was created with <a href=\"https://bootify.io\" target=\"_blank\">Bootify.io</a> and can now be customized. If you are happy with the result, <strong>please recommend us to other developers</strong> - so Bootify.io can grow further.",
+      "exploreEntities": "Explore your entities"
+    }
+  },
+  "error": {
+    "page": {
+      "headline": "Error",
+      "message": "The page you are looking for is not available right now."
+    }
+  },
+  "flower": {
+    "list": {
+      "headline": "Flowers",
+      "createNew": "Create new Flower",
+      "empty": "No Flowers could be found.",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "add": {
+      "headline": "Add Flower",
+      "back": "Back to list"
+    },
+    "id": {
+      "label": "Id"
+    },
+    "name": {
+      "label": "Name"
+    },
+    "price": {
+      "label": "Price"
+    },
+    "edit": {
+      "headline": "Edit Flower",
+      "back": "Back to list"
+    },
+    "create": {
+      "success": "Flower was created successfully."
+    },
+    "update": {
+      "success": "Flower was updated successfully."
+    },
+    "delete": {
+      "success": "Flower was removed successfully."
+    }
+  },
+  "select": {
+    "empty": {
+      "label": "Please select"
+    }
+  },
+  "delete": {
+    "confirm": "Do you really want to delete this element? This cannot be undone."
+  },
+  "operation": {
+    "success": "Your operation was successful."
+  },
+  "required": "Please provide a value.",
+  "maxlength": "Your value must have a length of less then ${max} characters.",
+  "valid": {
+    "numeric": {
+      "format": "Please provide a valid numeric number.",
+      "digits": "Your provided value is out of the valid range: <{{precision}} digits>.<{{scale}} digits> expected."
+    }
+  }
+}
