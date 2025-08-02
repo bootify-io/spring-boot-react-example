@@ -1,16 +1,18 @@
 # Spring Boot React Example
 
-This is a sample project for a Spring Boot app with a React frontend. It provides CRUD functions for managing flowers, persisted in HSQL. Implementation details:
+This is a sample project for a Spring Boot app with a React frontend. It provides CRUD functions for managing flowers, persisted
+in HSQL. Implementation details:
 
 * Contains the webpack configuration, including devserver for development (no deprecated `create-react-app`)
-* The actual React code is located in `src/main/webapp` using only Typescript
+* The actual React code is located in `src/main/webapp` using only Typescript (`.ts` or `.tsx`)
 * `react-router` for routing, `react-i18next` for internationalization, `react-hook-form` with `yup` for forms, and much more
 * The `ReactForwardController` returns the `index.html` for all non-backend requests
 * Gradle Node plugin for integration into the build process
 
 Further background information can be found in [Integrating React with Spring Boot](https://bootify.io/frontend/react-spring-boot-integration.html).
 
-Create your own Spring Boot application with a React frontend at [Bootify.io](https://bootify.io). Choose between **Maven and Gradle, define your own database schema,** and much more.
+Create your own Spring Boot application with a React frontend at [Bootify.io](https://bootify.io). Choose between **Maven and
+Gradle, define your own database schema,** and much more.
 
 ## Development
 
