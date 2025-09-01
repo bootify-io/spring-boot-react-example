@@ -42,7 +42,9 @@ public class FlowerService {
     }
 
     public void delete(final Long id) {
-        flowerRepository.deleteById(id);
+        final Flower flower = flowerRepository.findById(id)
+                .orElseThrow(NotFoundException::new);
+        flowerRepository.delete(flower);
     }
 
     private FlowerDTO mapToDTO(final Flower flower, final FlowerDTO flowerDTO) {
