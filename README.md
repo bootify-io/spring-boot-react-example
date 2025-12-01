@@ -18,7 +18,7 @@ Update your local database connection in `application.yml` or create your own `a
 
 During development it is recommended to use the profile `local`. In IntelliJ `-Dspring.profiles.active=local` can be added in the VM options of the Run Configuration after enabling this property in "Modify options".
 
-In addition to the Spring Boot application, the DevServer must also be started - for this [Node.js](https://nodejs.org/) version 22 is required. On first usage and after updates the dependencies have to be installed:
+In addition to the Spring Boot application, the DevServer must also be started - for this [Node.js](https://nodejs.org/) version 24 is required. On first usage and after updates the dependencies have to be installed:
 
 ```
 npm install

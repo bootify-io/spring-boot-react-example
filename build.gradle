@@ -1,5 +1,5 @@
 plugins {
-    id 'org.springframework.boot' version '3.5.7'
+    id 'org.springframework.boot' version '4.0.0'
     id 'io.spring.dependency-management' version '1.1.7'
     id 'java'
     id 'com.github.node-gradle.node' version '7.1.0'
@@ -26,14 +26,15 @@ dependencies {
     implementation('org.springframework.boot:spring-boot-starter-web')
     implementation('org.springframework.boot:spring-boot-starter-validation')
     implementation('org.springframework.boot:spring-boot-starter-data-jpa')
+    implementation('org.hibernate.orm:hibernate-community-dialects')
     runtimeOnly('org.hsqldb:hsqldb')
-    implementation('io.github.wimdeblauwe:error-handling-spring-boot-starter:4.6.0')
+    implementation('io.github.wimdeblauwe:error-handling-spring-boot-starter:5.0.0')
     testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
 
 node {
     download.set(true)
-    version.set('22.21.0')
+    version.set('24.11.1')
 }
 
 tasks.register('npmRunBuild', NpmTask) {
