@@ -1,4 +1,4 @@
-Copyright (c) 2025 by Bootify.io – Thomas Surmann
+Copyright (c) 2026 by Bootify.io – Thomas Surmann
 
 This source code is provided "as is" without warranty of any kind.
 
